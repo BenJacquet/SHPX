@@ -2,8 +2,119 @@
 <html>
 <head>
     <title>SHPX</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>Welcome to HSPX</h1>
+    <div class="header-container">
+        <!--/* Logo container */-->
+        <div class="logo-container">
+            <h1 class="logo">SHPX</h1>
+        </div>
+
+        <!--/* NavBar container */-->
+        <div class="navbar-container">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!--/* Search and Cart container */-->
+        <div class="search-cart-container">
+            <div class="search-cart">
+                <button class="search">
+                    <img src="https://api.iconify.design/material-symbols-light:search.svg">
+                </button>
+                <button class="cart">
+                    <img src="https://api.iconify.design/material-symbols-light:shopping-cart-outline-rounded.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--/* Banner container */-->
+    <section id="home">
+        <div class="banner-container">
+            <div class="banner-image">
+                <img src="/assets/images/image_1.png">
+            </div>
+            <div class="banner-text">
+                <h1 class="banner-text-title">
+                    Modern Interior
+                    for your
+                    Dream House
+                </h1>
+                <div class="banner-text-small">
+                    <p>We custom make design to suit your needs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/* Products Container */-->
+    <section id="products">
+        <div class="products-container">
+            <h1 class="products-container-title section-title">Products</h1>
+            <!--/* Product Sections Container */-->
+            <div class="products-sections-container">
+                <ul class="products-sections">
+                    <li class="products-sections-button">All</li>
+                    <li class="products-sections-button">Lamp</li>
+                    <li class="products-sections-button">Chair</li>
+                    <li class="products-sections-button">Table</li>
+                    <li class="products-sections-button">Sofa</li>
+                </ul>
+            </div>
+
+            <!--/* Product Cards Container */-->
+            <div class="product-cards-container">
+                <div class="product-cards">
+                    <div class="product-card">
+                        <div class="product-card-text">
+                            <p class="text-heavy">Chaise Molle</p>
+                            <p class="text-light">$18.00</p>
+                        </div>
+                        <div class="product-card-image">
+                            <img src="/assets/images/pro_1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/* Showcase container */-->
+    <section id="about">
+        <div class="showcase-container">
+            <div class="showcase-image">
+                <img src="/assets/images/image_2.png">
+            </div>
+            <div class="showcase-text">
+                <div class="showcase-text-title title">
+                    <h1>Showcase</h1>
+                </div>
+                <div class="showcase-text-description">
+                    <p>Feel at home bla bla bla this is awesome wow, so cozy.</p>
+                </div>
+            </div>
+            <div class="showcase-buttons">
+                <button><img src="https://api.iconify.design/material-symbols-light:arrow-left-alt.svg"></button>
+                <button><img src="https://api.iconify.design/material-symbols-light:arrow-right-alt.svg"></button>
+            </div>
+        </div>
+    </section>
+
+    <!--/* Contact section */-->
+    <section id="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h3>Get your quotation today</h3>
+            </div>
+            <div class="contact-cta">
+                <button class="primary">Quote me</button>
+                <button>Contact Sales</button>
+        </div>
+    </section>
 </body>
 </html>
